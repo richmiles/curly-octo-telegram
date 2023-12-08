@@ -5,10 +5,10 @@
   jobs:
     explain_code:
       runs-on: ubuntu-latest
-      name: ChatGPT explain code
+      name: ChatGPT Explain Code
       steps:
-        - name: ChatGPT explain code
-          uses: cirolini/chatgpt-github-actions@v1.3
+        - name: ChatGPT Explain Code
+          uses: cirolini/chatgpt-github-actions@v1.4
           with:
             openai_api_key: ${{ secrets.openai_api_key }}
             github_token: ${{ secrets.GITHUB_TOKEN }}
