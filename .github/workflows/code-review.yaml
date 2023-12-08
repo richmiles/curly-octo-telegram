@@ -8,7 +8,7 @@
       name: ChatGPT Explain Code
       steps:
         - name: ChatGPT Explain Code
-          uses: richmiles/chatgpt-github-actions@v0.9.5-beta
+          uses: richmiles/chatgpt-github-actions@v0.9.6-beta
           with:
             openai_api_key: ${{ secrets.OPENAI_API_KEY }}
             github_token: ${{ secrets.GITHUB_TOKEN }}
