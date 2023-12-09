@@ -6,7 +6,7 @@ function insertionSortReverse(array) {
     // Store the value of the current element to be inserted in its correct position
     const val = array[currentIndex];
 
-    // Initialize j to the current index i
+    // Initialize the shift index to the current index 
     let shiftIndex = currentIndex;
     // Move through the array to the right of the current position
     // This loop shifts elements to the left until the correct position for val is found
