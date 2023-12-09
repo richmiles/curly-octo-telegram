@@ -17,7 +17,7 @@ function insertionSortReverse(array) {
     }
 
     // Insert the value in its correct position
-    array[insertionIndex ] = currentElement ;
+    array[insertionIndex ] = currentElement;
   }
 
   // Return the sorted array
