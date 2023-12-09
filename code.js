@@ -8,8 +8,9 @@ function insertionSortReverse(array) {
 
     // Initialize the shift index to the current index 
     let insertionIndex  = currentIndex;
+
     // Move through the array to the right of the current position
-    // This loop shifts elements to the left until the correct position for val is found
+    // This loop shifts elements to the left until the correct position for insertion index is found
     for (; insertionIndex  < array.length - 1 && array[insertionIndex  + 1] < currentElement; insertionIndex ++) {
       // Shift the element to the left
       array[insertionIndex ] = array[insertionIndex  + 1];
