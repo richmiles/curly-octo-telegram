@@ -7,16 +7,16 @@ function insertionSortReverse(array) {
     const currentElement  = array[currentIndex];
 
     // Initialize the shift index to the current index 
-    let shiftIndex = currentIndex;
+    let insertionIndex  = currentIndex;
     // Move through the array to the right of the current position
     // This loop shifts elements to the left until the correct position for val is found
-    for (; shiftIndex < array.length - 1 && array[shiftIndex + 1] < currentElement; shiftIndex++) {
+    for (; insertionIndex  < array.length - 1 && array[insertionIndex  + 1] < currentElement; insertionIndex ++) {
       // Shift the element to the left
-      array[shiftIndex] = array[shiftIndex + 1];
+      array[insertionIndex ] = array[insertionIndex  + 1];
     }
 
     // Insert the value in its correct position
-    array[shiftIndex] = currentElement ;
+    array[insertionIndex ] = currentElement ;
   }
 
   // Return the sorted array
